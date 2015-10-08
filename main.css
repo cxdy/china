@@ -1,0 +1,115 @@
+@font-face {
+  font-family: 'Roboto', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+	background-image: url('bg.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    -webkit-background-size: cover;
+    background-size: cover;
+
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,.5);
+}
+
+.content {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    text-align: center;
+    height: 29vw;
+    color: #ffffff;
+}
+
+.time {
+    font-size: 105px;
+}
+
+#day {
+    border: 2px solid #ffffff; 
+    display: inline-block;
+    padding: .8em 1em;
+    margin-top: 2em;
+    text-transform: uppercase;
+    letter-spacing: .4vh;
+    font-size: 3vh;
+    font-weight: 600;
+}
+
+#link {
+    border: 2px solid #ffffff;
+    display: inline-block;
+    padding: .8em 1em;
+    margin-top: 2em;
+    text-transform: uppercase;
+    letter-spacing: .4vh;
+    font-size: 3vh;
+    font-weight: 600;
+}
+
+#joke {
+    border: 2px solid #ffffff;
+    display: inline-block;
+    padding: .8em 1em;
+    margin-top: 2em;
+    text-transform: uppercase;
+    letter-spacing: .4vh;
+    font-size: 3vh;
+    font-weight: 600;
+}
+
+#weather {
+    border: 2px solid #ffffff;
+    display: inline-block;
+    padding: .8em 1em;
+    margin-top: 2em;
+    text-transform: uppercase;
+    letter-spacing: .4vh;
+    font-size: 3vh;
+    font-weight: 600;
+}
+
+#search {
+    border: 2px solid #ffffff;
+    display: inline-block;
+    padding: .8em 1em;
+    margin-top: 2em;
+    text-transform: uppercase;
+    letter-spacing: .4vh;
+    font-size: 3vh;
+    font-weight: 600;
+}
+
+a {
+        -moz-transition: border-color 0.2s ease-in-out;
+        -webkit-transition: border-color 0.2s ease-in-out;
+        -o-transition: border-color 0.2s ease-in-out;
+        -ms-transition: border-color 0.2s ease-in-out;
+        transition: border-color 0.2s ease-in-out;
+        color: inherit;
+        outline: 0;
+        text-decoration: none;
+    }
+
+        a:hover {
+            border-color: transparent;
+        }
