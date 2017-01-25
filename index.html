@@ -1,6 +1,3 @@
-<?php
-$clip = rand(1, 50);
-?>
 <!DOCTYPE html>
 <html lang="en">
 <meta http-equiv="refresh" content="5">
@@ -14,13 +11,14 @@ $clip = rand(1, 50);
 <body>
     <div class="overlay">
         <div class="content"><br/><br/><br/><br/><br/><br/><br/><br/><br/>
-            <span id="link" onclick="play()"><a href="#">China?</a></button>
+            <span id="link" onclick="play()"><a href="#">China?</a></span>
 			<span id="meme"></span>
 		</div>
     </div>
 	<script>
+	var clip = Math.floor(Math.random()*(50-1+1)+1);
 	function play() {
-		document.getElementById("meme").innerHTML="<embed src='/china/audio/<?php echo $clip; ?>.mp3' autostart='true' loop='false' volume='100' hidden='true'>";
+		document.getElementById("meme").innerHTML="<embed src='/china/audio/" + clip; ".mp3' autostart='true' loop='false' volume='100' hidden='true'>";
 		return true;
 	}
 	</script>
